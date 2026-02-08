@@ -1,0 +1,23 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centraliza tudo na tela */
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+background-color: #fdf6e3;
+  color: #333;
+}
+
+/* Contêiner central */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

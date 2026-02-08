@@ -1,0 +1,19 @@
+.guess-input {
+  margin-bottom: 20px;
+}
+
+.guess-input input {
+  padding: 8px;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.guess-input button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.guess-input button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
